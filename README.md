@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Hello Rails React
+# Hello Rails Backend
 
 
 
@@ -26,9 +26,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📚🎵🎮 Hello Rails React <a name="about-project"></a>
+# 📚🎵🎮 Hello Rails Backend <a name="about-project"></a>
 
-**Hello Rails React** In this project I am going to use React with Rails in a single app. I am going to use webpack for that purpose. 
+**Hello Rails Backend** In this project I am going to create a rails api to use it on the frontend with react.
+
+<a href="https://github.com/fpsapc/hello-react-front-end/tree/setup-react">hello-react-front-end</a>
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,11 +45,6 @@
 </details> -->
 
 <details>
-<summary>Frontend</summary>
-  <ul>
-    <li><a href="https://www.react.dev/">React</a></li>
-  </ul>
-
 <summary>Backend</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
@@ -64,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Connect rails with react** 
+- **Create api only app and use rails cors for cross browser support** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +83,7 @@ In order to run this project you need:
 Clone or download the Collectify repository to your local machine.
 ```sh
   cd my-folder
-  git clone https://github.com/fpsapc/hello-rails-react.git
+  git clone https://github.com/fpsapc/hello-rails-back-end.git
 ```
 Open your terminal and navigate to the cloned project directory.
 
@@ -106,7 +104,6 @@ To run the project, navigate to the project directory and execute the following 
 ```sh
   bundle install
   rails db:create db:migrate 
-  npm run build
   rails server
 ```
 
@@ -168,7 +165,7 @@ Special thanks to microverse team for their guidlines.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
